@@ -59,9 +59,9 @@ function Drinks() {
           {cart.reduce((total, item) => total + item.price * item.quantity, 0)}{" "}
           ₸
         </p>
-        <h1 className="drinks-title">Напитки</h1>
+        <h1 className="drinksTitle">Напитки</h1>
 
-        <div className="drink-list">
+        <div className="drinkList">
           {drinks.map((drink) => (
             <DrinkCard
               key={drink.id}

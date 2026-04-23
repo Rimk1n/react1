@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.drinks-title {
+.drinksTitle {
   color: #009746;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 48px;
@@ -14,7 +14,7 @@
   margin-bottom: 40px;
 }
 
-.drink-list {
+.drinkList {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -50,7 +50,6 @@
   font-family: "Roboto Condensed", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  font-style: bold;
   color: #4c4c4c;
   line-height: 100%;
 }
@@ -64,7 +63,8 @@
   margin-bottom: 12px;
 }
 
-.add-to-cart {
+.add-to-cart,
+.addToCart {
   background-color: #009746;
   color: white;
   border: none;
@@ -80,18 +80,19 @@
   justify-content: center;
 }
 
-.add-to-cart:hover {
+.add-to-cart:hover,
+.addToCart:hover {
   background-color: #007a39;
 }
 
-.drink-page {
+.drinkPage {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 80vh;
 }
 
-.drink-page .container {
+.drinkPage .container {
   background: #f4f4f4;
   border-radius: 20px;
   padding: 40px;
@@ -102,12 +103,12 @@
   width: 380px;
 }
 
-.drink-page img {
+.drinkPage img {
   border-radius: 16px;
   object-fit: cover;
 }
 
-.drink-page h1 {
+.drinkPage h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 28px;
   font-weight: 700;
@@ -115,7 +116,7 @@
   margin: 0;
 }
 
-.drink-page h2 {
+.drinkPage h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 24px;
   font-weight: 700;
